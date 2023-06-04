@@ -8,6 +8,12 @@ public class GuestTest {
         guest.setLastName("Sawyer");
         guest.setEmail("sawyer@twain.com");
 
-        System.out.println(guest);
+        Guest guest2 = new Guest();
+        guest2.setId(1L);
+        guest2.setName("Huckleberry");
+        guest2.setLastName("Sawyer");
+        guest2.setEmail("sawyer@twain.com");
+
+        System.out.println(guest.equals(guest2));
     }
 }
