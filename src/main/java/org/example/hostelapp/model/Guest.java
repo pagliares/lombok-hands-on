@@ -4,7 +4,6 @@ import lombok.*;
 
 //@ToString(onlyExplicitlyIncluded = true)
 
-@Data
 //@AllArgsConstructor
 //@RequiredArgsConstructor
 //@NoArgsConstructor
@@ -12,6 +11,9 @@ import lombok.*;
 //@ToString()
 //@Getter
 //@Setter
+
+@Builder
+@Data
 public class Guest {
     // @ToString.Exclude
     // @ToString.Include
